@@ -12,7 +12,7 @@ What the client wants, the client gets.
 
 Where are the files? Where are the files?!?! No files.
 
-You're going to get some more experience creating your file structure and initializing all your files, creating a server, adding middleware, and using ajax to save data to a database!
+You're going to get some more experience creating your file structure and initializing all your files, creating a server, adding middleware, and using fetch!
 
 Treat this as a mini-project! Do some planning beforehand, review your code from today, and ask as many questions as you can about features, requirements, etc.
 
@@ -34,7 +34,7 @@ As a reminder, when you submit the homework, make sure you are including:
 
 Gerard wants his website to:
 * have a landing page with: 
-  * a section with movies that are currently playing at Müvie Haus on the left half of the page - these movies are saved in the database and should link to their movie show page
+  * a section with movies that are currently playing at Müvie Haus on the left half of the page - these movies are saved in the database and should link to their movie show page.  Tip: feel free to seed some data for testing this section!
   * a search field (movie title) and button that will request movie information from `http://www.omdbapi.com` on the right half of the page
   * a section underneath the search field that would render the results of the movie search (movie title, poster, rating, and runtime)
   * in that section, an 'add' form that would save the movie information to a database
@@ -52,7 +52,7 @@ possible high - level steps to follow
   - Setup a new express app, and create all the REST routes as a
   separate router.
   - You should be creating your own API that returns JSON's on the appropriate routes.
-  - You should be asychronously retrieving data from that API with AJAX on the front end.
+  - You should be asychronously retrieving data from that API with fetch on the front end.
   - Create files for all of the views you will need, with some dummy
   HTML and render them from the correct routes.
   - Hook up postgres to the express application through a separate
