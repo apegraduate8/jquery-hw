@@ -83,11 +83,11 @@ let jazz2 = (movieTitle) => {
 let jazzPost = (title) => {
     // let movie = movieTitle;
     $.ajax({
-        url:  "/api/movies",
+        url:  "api/movies",
         type: "POST",
         data: title,
-        success: (data) => {
-              console.log(data)
+        success: (response) => {
+              console.log(response)
 
         },
         error: (err) => {
