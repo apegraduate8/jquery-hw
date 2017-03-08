@@ -1,0 +1,23 @@
+{
+  "name": "hw-w06-d02-express-db-api-wombo-combo",
+  "version": "1.0.0",
+  "description": "![](https://i.imgur.com/fzYYrwf.gif)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:ap-slater/hw-w06-d02-Express-DB-API-wombo-combo.git"
+  },
+  "author": "Anthony p",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mustache-express": "^1.2.4",
+    "node-fetch": "^1.6.3",
+    "nodemon": "^1.11.0",
+    "pg-promise": "^5.5.8"
+  }
+}

@@ -1,0 +1,12 @@
+
+.search {
+  width: 500px;
+}
+.all {
+  width: 100%;
+
+}
+
+.movie:hover {
+  background-color: #fff;
+}
