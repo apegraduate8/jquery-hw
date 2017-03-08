@@ -11,7 +11,7 @@ CREATE TABLE movies(
     rating VARCHAR(50) NOT NULL,
     release VARCHAR(50) NOT NULL,
     runtime VARCHAR(50) NOT NULL,
-    poster VARCHAR(50) NOT NULL,
+    poster VARCHAR(255) NOT NULL
 
 );
 

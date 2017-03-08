@@ -1,4 +1,14 @@
 
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.current {
+  width: 400px;
+
+}
+
 .search {
   width: 500px;
 }

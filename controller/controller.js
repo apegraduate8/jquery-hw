@@ -4,7 +4,9 @@ const myMovies = require('../models');
 const controller =  {};
 
 controller.index = (req, res) => {
-      res.render('index');
+  const cookie = req.cookies;
+      res.clearCookie("The Matrix")
+      res.render('index', {movies: cookie});
 }
 
 

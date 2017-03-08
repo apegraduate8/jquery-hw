@@ -14,11 +14,18 @@
     <label>search</label>
     <input type="text" name="search">
    <button type="submit">search</button>
-   <div class="current"></div>
-   <div class="search">
+   <div class="container">
+     <div class="current">
+       {{#movies}}
+            <img src="{{movie.poster}}" alt="">
+            <h2>{{movie.title}}</h2>
+            <h4>{{movie.rating}}</h4>
+       {{/movies}}
+     </div>
+     <div class="search">
 
-   </div>
-
+     </div>
+ </div>
     <script type="text/javascript" src="/script.js"></script>
 </body>
 

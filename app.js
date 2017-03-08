@@ -2,6 +2,7 @@ const express = require('express'),
           mustache = require('mustache-express'),
           bodyParser = require('body-parser'),
           pg = require('pg-promise')();
+          cookiePars = require('cookie-parser');
 
 const app = express();
 
@@ -11,6 +12,7 @@ app.set('view engine', 'html');
 app.set('views', __dirname + '/views');
 app.use(express.static(__dirname +'/public'));
 
+app.use(cookiePars());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
